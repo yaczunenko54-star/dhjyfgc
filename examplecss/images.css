@@ -1,0 +1,41 @@
+.top-search input {
+  background: url("../img/search-text.gif") no-repeat left top;
+}
+
+.top-search button {
+  background: url("../img/search-submit.gif") no-repeat left top;
+}
+
+.menu {
+  background: url("../img/nav-bg.gif") no-repeat center top;
+}
+
+.sidebar {
+  background-image: url("../img/sidebar-bg.gif");
+  background-repeat: repeat-y;
+  background-position: left top;
+}
+
+.footer {
+  background: url("../img/footer.gif") no-repeat center top;
+}
+
+.rss {
+  display: inline-block;
+  min-width: 30px;
+  height: 18px;
+  overflow: hidden;
+  color: transparent;
+  vertical-align: middle;
+  background: url("../img/feed.gif") no-repeat left top;
+}
+
+.widget li::marker {
+  content: "";
+}
+
+.widget li {
+  list-style: none;
+  background: url("../img/arrow.gif") no-repeat left 8px;
+  padding-left: 14px;
+}

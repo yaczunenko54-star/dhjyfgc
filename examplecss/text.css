@@ -1,0 +1,159 @@
+body {
+  color: #182735;
+  font: 13px/1.62 Montserrat, Tahoma, Arial, sans-serif;
+}
+
+.logo {
+  color: #fff;
+  font: 900 21px Merriweather, Georgia, "Times New Roman", serif;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  text-shadow: 0 2px 2px #000;
+}
+
+a {
+  color: #1f3442;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.top-search input {
+  color: #333;
+  font-size: 11px;
+}
+
+.menu a,
+.subscribe a {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #000;
+}
+
+.subscribe a:not(.rss) {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: #111922;
+  font-family: Merriweather, Georgia, "Times New Roman", serif;
+  font-weight: 900;
+  letter-spacing: -0.8px;
+}
+
+h1 {
+  font-size: 27px;
+  line-height: 1.16;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.22;
+}
+
+.article p {
+  margin: 14px 0 0;
+}
+
+.section-label {
+  color: #5b7890;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+
+.post-preview p,
+.intro-card p:not(.section-label) {
+  font-size: 13px;
+}
+
+.post-info {
+  color: #435669;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.side-search {
+  color: #405260;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.side-search button {
+  color: #222;
+  font: 12px Arial, sans-serif;
+}
+
+.widget {
+  color: #1a1a1a;
+}
+
+.widget h2 {
+  font-size: 17px;
+  letter-spacing: -0.2px;
+}
+
+.widget li {
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.footer {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.credits {
+  color: #8a9aa6;
+  font-size: 10px;
+}
+
+.credits a {
+  color: #6d7f8a;
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .menu a,
+  .subscribe a {
+    font-size: 11px;
+  }
+
+  .widget li {
+    font-size: 12px;
+  }
+}

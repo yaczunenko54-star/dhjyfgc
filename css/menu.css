@@ -1,0 +1,81 @@
+.menu {
+  position: relative;
+  height: 39px;
+  padding: 10px 12px 0 44px;
+  border-radius: 8px 8px 0 0;
+}
+
+.menu ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  height: 29px;
+}
+
+.menu a {
+  display: block;
+  height: 29px;
+  padding: 9px 14px 0;
+}
+
+.menu .active a {
+  min-width: 68px;
+  color: #fff;
+  background: linear-gradient(#e9f3fb, #b6cce0);
+  border-radius: 3px 3px 0 0;
+}
+
+.subscribe {
+  position: absolute;
+  right: 12px;
+  top: 11px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.subscribe a:not(.rss) {
+  height: 18px;
+  padding-top: 2px;
+}
+
+.subscribe .rss {
+  width: 30px;
+  min-width: 30px;
+  padding: 0;
+  text-indent: -9999px;
+}
+
+@media (max-width: 560px) {
+  .menu {
+    height: auto;
+    min-height: 72px;
+    padding: 8px 10px 9px;
+  }
+
+  .menu ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .menu li,
+  .menu a {
+    height: 28px;
+  }
+
+  .menu a {
+    padding: 9px 12px 0;
+  }
+
+  .subscribe {
+    position: static;
+    justify-content: center;
+    margin-top: 7px;
+  }
+}
